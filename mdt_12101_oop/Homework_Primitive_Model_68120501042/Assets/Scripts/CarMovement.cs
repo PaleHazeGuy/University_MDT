@@ -13,6 +13,6 @@ public class CarMovement : MonoBehaviour
 
   void Update()
   {
-    transform.position = new UnityEngine.Vector3(transform.position.x + (5f * Time.deltaTime), 0.55f, transform.position.z);
+    transform.position = new UnityEngine.Vector3((transform.position.x + (5f * Time.deltaTime) * -1), 0.55f, transform.position.z);
   }
 }
